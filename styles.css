@@ -17,8 +17,18 @@ button{
     color: #fff;
 }
 
+.fixed-header{
+    position: fixed;
+    background-color: white;
+    margin: 0px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
 .header{
-  
+    
     margin: 40px 20px 0px 20px;
     font-size: 0;
     line-height: 45px;
