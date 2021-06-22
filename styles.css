@@ -70,3 +70,36 @@ li{
     border-radius: 5px;
     background-color: #67b54b;
 }
+
+
+/*----------21-06-2021-----------------------*/
+
+.promo{
+    display: flex;
+    width: 70%;
+    margin: 100px auto;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.promo #video-image video{
+    width: 100%;
+}
+
+
+.promo #video-image img{
+    width: 120px;
+    height: 10px;
+}
+ #video-image {
+    flex-basis: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.promo #parrafo-junto-video{
+    flex-basis: 50%;
+    align-items: center;
+}
