@@ -295,3 +295,62 @@ li{
     border: none;
     
 }
+
+/*23-06-2021*/
+.features{
+    display: grid;
+    /* grid-template-columns: 100px 300px; */
+    /* grid-template-columns: repeat(2, 300px); Dos col con 300 px */
+    /* grid-template-columns: 500px 1fr;  */
+    grid-template-columns: 1fr 1fr; /*Las dos col usan el mismo espacio*/
+    grid-template-rows: 330px 330px;
+
+    /* grid-template: repeat(2, 1fr) / repeat(2, 330px); */
+
+}
+
+.feature-art{
+    background-color: lightcyan;
+    margin: 10px;
+    width: 40%;
+    height: 50px;
+}
+
+
+#cards{
+    background-color: #025157;
+    padding: 5% 10%;
+    display: grid;
+    grid-template: repeat(2, 330px) / repeat(2, 1fr);
+}
+
+#cards .informative-cards{
+    margin-bottom: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #fff;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+#cards .informative-cards .card-feature-content{
+    padding: 30px 20px 40px 40px;
+    flex: 2;
+}
+
+#cards .informative-cards .card-feature-image{
+    flex: 1;
+    width: 40%;
+    position: relative;
+    right: -50px;
+    height: 80%;
+}
+
+#cards .informative-cards  .card-feature-image img{
+    margin-top: 0;
+    height: 100%;
+}
+
