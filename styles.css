@@ -93,6 +93,7 @@ button{
 }
 
 .fixed-header{
+    z-index: 2;
     position: fixed;
     background-color: white;
     margin: 0px;
@@ -318,6 +319,8 @@ li{
 
 
 #cards{
+    font-family:sans-serif;
+    
     background-color: #025157;
     padding: 5% 10%;
     display: grid;
@@ -334,12 +337,48 @@ li{
     display: flex;
     align-items: center;
     overflow: hidden;
+   
 }
 
 #cards .informative-cards .card-feature-content{
     padding: 30px 20px 40px 40px;
     flex: 2;
 }
+
+
+#cards .informative-cards .card-feature-content figure{
+    margin-left: 0;
+}
+
+#cards .informative-cards .card-feature-content figure img{
+    width: 20%;
+    text-align: left;
+}
+
+
+#cards .informative-cards .card-feature-content h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: #343434;
+    line-height: 29px;
+}
+
+
+#cards .informative-cards .card-feature-content p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #7e7e7e;
+    line-height: 24px;
+}
+
+#cards .informative-cards .card-feature-content a{
+    font-size: 16px;
+    font-weight: 600;
+    color: #67b54b;
+    line-height: 24px;
+    text-decoration: none;
+}
+
 
 #cards .informative-cards .card-feature-image{
     flex: 1;
