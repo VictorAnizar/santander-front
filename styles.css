@@ -78,7 +78,9 @@ body{
 }
 
 h1{
+    font-size: 60px;
     color: blueviolet;
+    margin-top: 150px;
 }
 
 h2{
@@ -484,4 +486,78 @@ li{
     color: #67b54b;
     text-decoration: none;
     padding: 0px 25px 25px 25px;
+}
+
+
+/*28-06-2021
+Media queries
+*/
+/** dispositivos móviles en vista viewport (vertical) */
+@media (max-width: 575px) {
+
+    .navbar, .actions{
+        display: none;
+    }
+    h1{
+        margin-top: 65px;
+        font-size: 30px;
+    }
+    .publish .formulario{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+.banner > img{
+    width: 100%;
+}
+
+
+.promo{
+    flex-direction: column;
+    max-width: 90%;
+}
+
+.promo #video-image > video{
+    width: 100%;
+}
+.publish{
+    margin-top: 10px;
+}
+.publish > h3{
+    font-size: 25px;
+    line-height: 1.2;
+}
+#cards{
+    grid-template-columns: 1fr;
+}
+
+#cards .informative-cards .card-feature-content h3 {
+    font-size: 16px;
+    
+}
+
+#cards .informative-cards .card-feature-image img {
+    
+    max-height: 300px;
+}
+}
+
+/** dispositivos pequeños en vista landscape (horizontal) */
+@media (min-width: 576px) and (max-width: 767px) {
+  
+}
+
+/** dispositivos medianos (tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+  
+}
+
+/** dispositivos grandes (desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+}
+
+/** dispositivos extra grandes (monitores grandes, tvs) */
+@media (min-width: 1200px) {
+  
 }
