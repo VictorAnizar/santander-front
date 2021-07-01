@@ -129,12 +129,12 @@ li{
 .logo{
     width: 15%;
 }
-.navbar{
+/* .navbar{
     width: 70%;
     text-align: center;
     color: #025157;
     word-spacing: 25px;
-}
+} */
 
 .actions{
     width:15%;
@@ -495,9 +495,9 @@ Media queries
 /** dispositivos móviles en vista viewport (vertical) */
 @media (max-width: 575px) {
 
-    .navbar, .actions{
+    /* .navbar, .actions{
         display: none;
-    }
+    } */
     h1{
         margin-top: 65px;
         font-size: 30px;
